@@ -47,16 +47,24 @@ body {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
+  color: var(--contact-color);
 }
 .contact-footer {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
+  color: var(--contact-color);
 }
 .contact-header:hover,
 .contact-footer:hover {
   color: var(--brand-color);
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
 }
 .logo {
   text-decoration: none;
@@ -67,4 +75,24 @@ body {
 }
 .logo-decoration {
   color: var(--brand-color);
+}
+.hide {
+  display: none;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+}
+.background-section {
+  background-color: var(--background-color-dark);
+}
+.title-lorem {
+  font-weight: 700;
+  font-size: 14px;
+}
+.text-lorem {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--contact-color);
 }
