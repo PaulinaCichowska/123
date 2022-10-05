@@ -1,0 +1,38 @@
+:root {
+  --brand-color: #2196f3;
+  --background-color-dark: #2f303a;
+  --background-color-light: #f5f4fa;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+.buttons {
+  height: 38px;
+  width: 121px;
+  background-color: #f5f4fa;
+}
+.buttons:hover {
+  background: var(--brand-color);
+}
+.list-style {
+  list-style-type: none;
+}
+.nav-decoration:hover {
+  color: var(--brand-color);
+}
+.nav-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+}
+.logo-decoration {
+  color: var(--brand-color);
+}
