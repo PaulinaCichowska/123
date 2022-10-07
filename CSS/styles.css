@@ -6,7 +6,7 @@
   --contact-color: #757575;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
 .buttons {
@@ -16,6 +16,7 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  letter-spacing: 0.03em;
 }
 .buttons:hover {
   background: var(--brand-color);
@@ -28,6 +29,9 @@ body {
   width: 200px;
   border: none;
   border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 .list-style {
   list-style-type: none;
@@ -41,6 +45,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contact-header {
@@ -49,24 +54,25 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: var(--contact-color);
+  letter-spacing: 0.02em;
 }
 .contact-footer {
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   font-style: normal;
   color: var(--contact-color);
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .contact-header:hover,
 .contact-footer:hover {
   color: var(--brand-color);
 }
 .address {
-  font-weight: 400;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .logo {
   text-decoration: none;
@@ -75,6 +81,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-decoration {
   color: var(--brand-color);
@@ -86,40 +93,48 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
 }
 .background-section {
   background-color: var(--background-color-dark);
 }
 .title-lorem {
-  font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .text-lorem {
   font-size: 14px;
   color: var(--contact-color);
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 .title-list {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .profession {
   font-size: 16px;
   line-height: 1.19;
   color: var(--contact-color);
+  letter-spacing: 0.03em;
 }
 .title-decoration-portfolio {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .text-decoration-portfolio {
   font-size: 16px;
   line-height: 1.86;
   color: var(--contact-color);
+  letter-spacing: 0.03em;
 }
